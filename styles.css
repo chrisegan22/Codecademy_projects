@@ -1,0 +1,224 @@
+/* ================================ */
+/* General Document Styles */
+/* ================================ */
+/* Set the default font for the entire document to Times New Roman, with fallbacks to Times and serif fonts */
+html {     
+    font-family: 'Times New Roman', Times, serif; /* Using Times New Roman, with fallback to Times and serif fonts */
+    font-size: 25px; /* Set the base font size to 20px for the document */
+    font-weight: 500; /* Set font-weight to 500 */
+    background-color: bisque; /* Set background color to bisque */
+    background-size: 100% 100%; /* Stretch the background image to cover the entire element */
+    color:black;
+}
+
+/* ================================ */
+/* Heading Styles */
+/* ================================ */
+/* Center-align headings h1 and h2 */
+.main, h2 {
+    text-align: center; /* Align the text in h1 and h2 to the center */
+}
+
+.main {
+    background-image: url(https://images3.alphacoders.com/740/thumb-1920-74025.jpg); /* Add a background image to the h1 header */
+    background-size: cover; /* Stretch the background image to cover the entire h1 element */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    padding: 100px; /* Add 100px padding around the text within h1 */
+    margin-top: 0px; /* Set the margin-top to 0px to align the h1 header to the top */
+    color: whitesmoke; /* Set text color to white for the h1 header */
+    font-size: 70px; /* Set the base font size to 20px for the document */
+    font-weight: 700; /* Set font-weight to 500 */
+}
+
+/* ================================ */
+/* Class color font style */
+/* ================================ */
+/* Changing the font from the rest of the site and only for the color block section */
+.colors {     
+    font-family: "Dancing Script", cursive; /* Use Dancing Script font with cursive as a fallback */
+    font-weight: 300; /* Font weight can range from 100 to 900 */
+    font-style: normal; /* Set font style to normal */
+}
+
+/* ================================ */
+/* Section Block Styles */
+/* ================================ */
+/* Style for <section> elements */
+section {     
+    display: block; /* Ensure the section is displayed as a block-level element */
+    border: 2px solid black; /* Add a 2px solid black border around the section */
+    border-radius: 30px; /* Apply rounded corners with a 30px radius for a smooth effect */
+    margin-block: 75px; /* Add 75px margin to both top and bottom of the section */
+    margin-left: 30px; /* Add 30px margin to the left side of the section */
+    margin-right: 30px; /* Add 30px margin to the right side of the section */
+}
+
+/* ================================ */
+/* Color Block Classes */
+/* ================================ */
+/* General styling for elements with background colors and black text */
+.color-pink, .color-green, .color-brown, .color-beige, .color-yellow {     
+    
+    padding: 20px; /* Add 20px padding inside each element for spacing */
+}
+
+/* Specific background colors for each class with individual classes for different colors */
+.color-black {     
+    color: white; /* Set text color to white for high contrast with black background */
+    padding: 20px; /* Add 20px padding inside the element */
+    background-color: black; /* Set background color to black */
+}
+
+.color-pink {      
+    background-color: #ff00ff; /* Set background color to bright pink */
+}
+
+.color-green {      
+    background-color: #008000; /* Set background color to green */
+}
+
+.color-brown {      
+    background-color: #a52a2a; /* Set background color to brown */
+}
+
+.color-beige {      
+    background-color: #efd9ca; /* Set background color to beige */
+}
+
+.color-yellow {      
+    background-color: #ffff00; /* Set background color to yellow */
+}
+
+/* ================================ */
+/* Div Element Styles */
+/* ================================ */
+/* Style for <div> elements */
+div {     
+    display: inline-block; /* Display div elements inline with other elements for a grid-like effect */
+    text-align: center; /* Center-align the content within the div */
+    border-radius: 30px; /* Apply rounded corners with a 30px radius for a smooth appearance */
+    margin-left: 10px; /* Add 10px left margin to space out the div from other elements */
+    margin-right: 10px; /* Add 10px right margin to create spacing between divs */
+    margin-bottom: 20px; /* Add 20px bottom margin to create spacing between divs */
+}
+
+/* ================================ */
+/* Color-panel Element Styles */
+/* ================================ */
+/* Style for color-panel element */
+.color-panel{     
+    display:block; /* Ensure the section is displayed as a block-level element */
+    margin-block: 0 auto; /* Center the color-panel block with automatic margins */
+}
+
+/* ================================ */
+/* Section Class Fonts Block */
+/* ================================ */
+.tiles{     
+    display: block; /* Ensure the section is displayed as a block-level element */
+    margin-block: 0 auto; /* Center the tiles block with automatic margins */
+    font-size: large; /* Set font size to large */
+    text-align: center; /* Center-align the text within the tiles block */
+}
+
+/* ================================ */
+/* fonts Block Classes */
+/* ================================ */
+/* Style for font blocks */
+.font1,.font2,.font3,.font4{     
+    border:rgb(37, 7, 85) 2px dashed; /* Add a dashed border around font blocks */
+    display: inline-block; /* Ensure the section is displayed as an inline-block element */
+    text-align: center; /* Center-align the content within the div */
+    border-radius: 30px; /* Apply rounded corners with a 30px radius for a smooth appearance */
+    margin-left: 10px; /* Add 10px left margin to space out the div from other elements */
+    margin-right: 10px; /* Add 10px right margin to create spacing between divs */
+    margin-bottom: 20px; /* Add 20px bottom margin to create spacing between divs */
+    padding: 20px; /* Add 20px padding inside the font blocks for spacing */
+}
+
+/* ================================ */
+/* Font Classes */
+/* ================================ */
+/* Add font family to the classes */
+.font1{     
+    font-family: "Anton", sans-serif; /* Use Anton font with sans-serif as a fallback */
+}
+
+.font2{     
+    font-family: "Open Sans", sans-serif; /* Use Open Sans font with sans-serif as a fallback */
+}
+
+.font3{     
+    font-family: "Shadows Into Light", sans-serif; /* Use Shadows Into Light font with sans-serif as a fallback */
+}
+
+.font4{     
+    font-family: "Ballet", cursive; /* Use ballet font with cursive as a fallback */
+}
+
+/* ================================ */
+/* Paragraph classes styles */
+/* ================================ */
+/* Paragraph 1 styles */
+.p1{     
+    font-weight:400; /* Set font-weight to 300 */
+    font-style: normal; /* Set font style to normal */
+    text-align: left; /* Align text to the left */
+}
+/* Paragraph 2 styles */
+.p2{     
+    font-weight: 600; /* Set font-weight to 600 */
+    font-style: italic; /* Set font style to italic */
+    text-align: left; /* Align text to the left */
+}
+/* Paragraph 3 styles */
+.p3{     
+    font-weight: 800; /* Set font-weight to 800 */
+    font-style: normal; /* Set font style to normal */
+    text-align: left; /* Align text to the left */
+}
+
+/* ================================ */
+/* Font h3 classes alignment */
+/* ================================ */
+.fontheader {     
+    text-align: left; /* Align the header text to the left */
+    font-family: 'Times New Roman', Times, serif; /* Use Times New Roman as primary font, fallback to Times and serif */
+    font-weight: 200; /* Set the font weight to 200 for a lighter appearance */
+    display: inline-block; /* Display the element inline while still allowing width and height modifications */
+    position: relative; /* Needed for positioning the pseudo-element (::after) relative to this element */
+    font-size: 24px; /* Set font size to 24px */
+    text-decoration: none; /* Remove any default underline (useful if applied to links) */
+}
+
+.fontheader::after {
+    content: ''; /* Create an empty pseudo-element for the underline effect */
+    position: absolute; /* Position it relative to .fontheader */
+    bottom: -5px; /* Place it slightly below the text */
+    left: 0; /* Align the underline with the start of the text */
+    width: 100%; /* Make the underline span the full width of the text */
+    height: 3px; /* Set the thickness of the underline */
+    background: rgba(0, 0, 0, 0.3); /* Use a semi-transparent black color */
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.3); /* Add a blurred shadow effect for a soft glowing look */
+}
+
+/* ================================ */
+/* Text Block Classes */
+/* ================================ */
+.text-styles{
+         
+        display: block; /* Ensure the section is displayed as a block-level element */
+        margin-block: 0 auto; /* Center the tiles block with automatic margins */
+        font-size: large; /* Set font size to large */
+        text-align: center; /* Center-align the text within the tiles block */
+}
+
+/* ================================ */
+/* Footer */
+/* ================================ */
+ footer{
+    text-align: center;
+    color:brown;
+    font-weight: 100;
+ }
